@@ -14,7 +14,7 @@ NEWSPIDER_MODULE = 'worldometers.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-HEADERS_UA = {'User-Agent': '<Your User Agent Value>'}
+HEADERS_UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'}
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -62,9 +62,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'worldometers.pipelines.WorldometersPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'worldometers.pipelines.WorldometersPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
