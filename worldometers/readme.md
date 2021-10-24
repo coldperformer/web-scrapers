@@ -17,8 +17,4 @@
 - Open the integrated terminal inside the IDE by pressing ```CTRL + ~```.
 - Navigate to worldometers root by executing ```cd worldometers``` on your PowerShell.
 - The root level of the worldometers directory will contain a scrapy.cfg file.
-- To run the spider and save the data execute the following instruction on the integrated terminal.
-
-    ```
-    scrapy crawl populationbycountry -o populationbycountry.csv
-    ```
+- To run the spiders and save the data files, execute the ```crawler.py``` file from the integrated terminal.
